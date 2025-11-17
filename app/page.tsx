@@ -546,7 +546,7 @@ export default function Home() {
                 />
             </div>
 
-            {/* Toggle Panel Button - Fixed at bottom center */}
+            {/* Toggle Panel Button */}
             <button
                 onClick={() => setIsPanelVisible(!isPanelVisible)}
                 className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-neutral-800 hover:bg-neutral-700 text-white p-4 rounded-full transition-all duration-300 cursor-pointer shadow-lg"
@@ -565,7 +565,7 @@ export default function Home() {
                 </svg>
             </button>
 
-            {/* Control Panel - Bottom sheet on mobile */}
+            {/* Control Panel  */}
             <div
                 className={`fixed bottom-0 left-0 right-0 h-[500px] bg-neutral-900 border-t border-neutral-800 flex flex-col transition-transform duration-300 ease-in-out ${isPanelVisible ? 'translate-y-0' : 'translate-y-full'}`}
                 style={{ touchAction: 'pan-y' }}
@@ -690,7 +690,7 @@ export default function Home() {
                                                 Calque {index + 1}
                                             </div>
 
-                                            {/* Cycle arrows - larger touch targets */}
+                                            {/* Cycle arrows */}
                                             <div className="flex items-center gap-3">
                                                 <button
                                                     onClick={() => handleCycleLayer(layer.id, 'prev')}
@@ -755,14 +755,13 @@ export default function Home() {
                     <div className="h-24" />
                 </div>
 
-                {/* Generate Button - Fixed at bottom */}
                 <div className="px-6 py-4 border-t border-neutral-800 bg-neutral-900">
                     <button
                         onClick={regenerate}
                         className="w-full bg-white text-black py-4 rounded-sm active:bg-neutral-300 transition-all text-base tracking-[0.25em] uppercase font-medium shadow-lg min-h-[56px]"
                         style={{ touchAction: 'manipulation' }}
                     >
-                        Générer
+                        Créer
                     </button>
 
                     <div className="mt-4 text-center text-xs text-neutral-600">
