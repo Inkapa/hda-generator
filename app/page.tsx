@@ -342,8 +342,8 @@ export default function Home() {
                             </div>
 
                             <Toggle
-                                label="Mélange Varié"
-                                sublabel="Aléatoire par calque"
+                                label="Aléatoire"
+                                sublabel="par calque"
                                 value={useVariedBlending}
                                 onChange={handleBlendingToggle}
                             />
