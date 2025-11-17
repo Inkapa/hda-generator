@@ -507,13 +507,13 @@ export default function Home() {
                             onClick={regenerate}
                             className="w-full bg-white text-black py-5 rounded-sm hover:bg-neutral-200 active:bg-neutral-300 transition-all text-base tracking-[0.25em] uppercase font-medium shadow-lg hover:shadow-xl active:scale-[0.98] cursor-pointer"
                         >
-                            Générer
+                            CRÉER
                         </button>
 
                         <div className="mt-6 flex items-center justify-center gap-3 text-xs text-neutral-600">
                             <div className="flex items-center gap-2">
                                 <kbd className="px-2 py-1 bg-neutral-800 text-neutral-400 rounded-sm font-mono">R</kbd>
-                                <span>Régénérer</span>
+                                <span>Créer</span>
                             </div>
                             <span>•</span>
                             <div className="flex items-center gap-2">
