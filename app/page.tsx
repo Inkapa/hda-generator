@@ -71,7 +71,7 @@ const Dropdown = <T extends string>({
 
 export default function Home() {
     const [characterCount, setCharacterCount] = useState(2);
-    const [useVariedBlending, setUseVariedBlending] = useState(false);
+    const [useVariedBlending, setUseVariedBlending] = useState(true);
     const [globalBlendMode, setGlobalBlendMode] = useState<BlendMode>('source-over');
     const [dimensions, setDimensions] = useState({ width: 1200, height: 800 });
     const [showAdvanced, setShowAdvanced] = useState(false);
