@@ -77,15 +77,12 @@ export default function Home() {
     const [showAdvanced, setShowAdvanced] = useState(false);
     const [isPanelVisible, setIsPanelVisible] = useState(true);
     const [isMobile, setIsMobile] = useState(false);
-    const [isClient, setIsClient] = useState(false);
     const [layers, setLayers] = useState<LayerElement[]>(() =>
         generateInitialLayers(2, false, 'source-over')
     );
 
     // Load localStorage values after mount to avoid hydration mismatch
     useEffect(() => {
-        setIsClient(true);
-
         const savedBlending = localStorage.getItem('useVariedBlending');
         if (savedBlending) {
             const blendingValue = JSON.parse(savedBlending);
@@ -326,10 +323,10 @@ export default function Home() {
                     {/* Header */}
                     <div className="px-12 pt-12 pb-10 border-b border-neutral-800">
                         <h1 className="text-white text-2xl font-light tracking-[0.2em] mb-2">
-                            HDA AUTOPORTRAIT
+                            AUTOPORTRAIT DADA
                         </h1>
                         <p className="text-neutral-500 text-xs tracking-widest uppercase">
-                            Liam CORNU - Prépa C
+                            Liam CORNU
                         </p>
                     </div>
 
