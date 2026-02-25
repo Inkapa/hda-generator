@@ -323,7 +323,7 @@ export default function Home() {
                     {/* Header */}
                     <div className="px-12 pt-12 pb-10 border-b border-neutral-800">
                         <h1 className="text-white text-2xl font-light tracking-[0.2em] mb-2">
-                            AUTOPORTRAIT DADA
+                            AUTOPORTRAITS
                         </h1>
                         <p className="text-neutral-500 text-xs tracking-widest uppercase">
                             Liam CORNU
@@ -570,10 +570,10 @@ export default function Home() {
                 {/* Header */}
                 <div className="px-6 pt-6 pb-4 border-b border-neutral-800">
                     <h1 className="text-white text-xl font-light tracking-[0.2em] mb-1">
-                        HDA AUTOPORTRAIT
+                        AUTOPORTRAITS
                     </h1>
                     <p className="text-neutral-500 text-xs tracking-widest uppercase">
-                        Liam CORNU - Prépa C
+                        Liam CORNU
                     </p>
                 </div>
 
